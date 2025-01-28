@@ -1,0 +1,21 @@
+.navigation
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(25, 25, 25);
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+a:visited {
+    color: white;
+}
