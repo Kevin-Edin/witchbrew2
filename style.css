@@ -129,9 +129,64 @@
 
 .mainbody
 {
-    height:50rem;
+    height: 50rem;
     width: 100%;
     background-color: rgb(25, 25, 25);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainbodyheader
+{
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: -12rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    font-style: normal;
+    text-decoration: none; 
+    color: whitesmoke;
+}
+
+.aboutusbody
+{
+    min-height: 63rem;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.aboutusheader
+{
+    padding: 0;
+    margin-top: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    font-style: normal;
+    text-decoration: none; 
+    color: whitesmoke; 
+}
+
+.aboutustext
+{
+    padding: 0;
+    margin-top: 0;
+    max-width: 80ch;
+    word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-style: normal;
+    text-decoration: none; 
+    color: whitesmoke; 
 }
 
 a:link {
